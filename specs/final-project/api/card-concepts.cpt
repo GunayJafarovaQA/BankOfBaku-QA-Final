@@ -1,0 +1,18 @@
+# Kart buraxılışı hesab <accountId> məbləğ <amount> ləqəb <label>
+* "accountId" deyişenine <accountId> deyerini ver
+* "amount" deyişenine <amount> deyerini ver
+* "label" deyişenine <label> deyerini ver
+* Initalize request specification
+* Add Endpoint "/cards"
+* Authorization header-ine tokeni elave et
+* Add body as file resource "card-create.json"
+* Post request and display respons
+
+# Kart buraxılışı hesab <accountId> məbləğ <amount>
+* "accountId" deyişenine <accountId> deyerini ver
+* "amount" deyişenine <amount> deyerini ver
+* Initalize request specification
+* Add Endpoint "/cards"
+* Authorization header-ine tokeni elave et
+* Add body as file resource "card-create-no-label.json"
+* Post request and display respons

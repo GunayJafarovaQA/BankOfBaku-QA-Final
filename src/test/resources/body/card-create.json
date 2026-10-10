@@ -1,0 +1,5 @@
+{
+  "accountId": "${accountId}",
+  "initialAmount": ${amount},
+"label": "${label}"
+}

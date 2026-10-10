@@ -1,0 +1,5 @@
+{
+  "fullName": "${fullName}",
+  "iban": "${iban}",
+  "currency": "${currency}"
+}

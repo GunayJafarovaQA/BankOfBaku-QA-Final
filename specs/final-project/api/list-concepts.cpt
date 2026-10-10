@@ -1,0 +1,18 @@
+# Alıcılar siyahısı sorğusunu hazırla
+* Initalize request specification
+* Add Endpoint "/beneficiaries"
+* Authorization header-ine tokeni elave et
+* Add as a header "Content-Type" = "application/json"
+* Add as a header "Accept" = "application/json"
+
+# Axtarış üçün 5 test alıcısı yarat
+* Alıcı yarat ad "Nigar Əliyeva" iban "AZ83AIIB40060019440000000001" valyuta "AZN" ləqəb "Anam"
+* Status kodunun "201" olmalıdır
+* Alıcı yarat ad "Aygün Həsənova" iban "AZ56AIIB40060019440000000002" valyuta "USD" ləqəb "Dostum"
+* Status kodunun "201" olmalıdır
+* Alıcı yarat ad "Çinar Quliyev" iban "AZ29AIIB40060019440000000003" valyuta "EUR" ləqəb "Hamkar"
+* Status kodunun "201" olmalıdır
+* Alıcı yarat ad "Əli Məmmədov" iban "AZ02AIIB40060019440000000004" valyuta "AZN"
+* Status kodunun "201" olmalıdır
+* Alıcı yarat ad "Zaur Zeynalov" iban "AZ72AIIB40060019440000000005" valyuta "USD"
+* Status kodunun "201" olmalıdır

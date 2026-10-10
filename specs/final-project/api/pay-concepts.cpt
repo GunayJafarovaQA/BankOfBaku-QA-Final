@@ -1,0 +1,26 @@
+# Ödəniş kartı yarat məbləğ <amount>
+* Yeni təmiz sandbox ilə user1 kimi daxil ol
+* Kart buraxılışı hesab "acc_002" məbləğ <amount> ləqəb "PayCard"
+* Status kodunun "201" olmalıdır
+* Json cavabında "id" deyerini "cardId" olaraq yadda saxla
+
+# Ödəniş göndər təchizatçı <billerId> abunəçi <subscriberNo> məbləğ <amount> açar <key>
+* "billerId" deyişenine <billerId> deyerini ver
+* "subscriberNo" deyişenine <subscriberNo> deyerini ver
+* "amount" deyişenine <amount> deyerini ver
+* "idemKey" deyişenine <key> deyerini ver
+* Initalize request specification
+* Add Endpoint "/bill-payments"
+* Authorization header-ine tokeni elave et
+* Add as a header "Idempotency-Key" = "${idemKey}"
+* Add body as file resource "pay-create.json"
+* Post request and display respons
+
+# Kartın qalıq balansı <balance> xərclənən <spent> olmalıdır
+* Initalize request specification
+* Add Endpoint "/cards/${cardId}"
+* Authorization header-ine tokeni elave et
+* Get request and display respons
+* Status kodunun "200" olmalıdır
+* Json cavabında "availableBalance" deyeri <balance> beraberdir
+* Json cavabında "spentToday" deyeri <spent> beraberdir

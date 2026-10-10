@@ -1,0 +1,26 @@
+# Test kartı yarat
+* Kart buraxılışı hesab "acc_002" məbləğ "100" ləqəb "Test"
+* Status kodunun "201" olmalıdır
+* Json cavabında "id" deyerini "cardId" olaraq yadda saxla
+
+# Kartı blokla səbəb <reason>
+* "reason" deyişenine <reason> deyerini ver
+* Initalize request specification
+* Add Endpoint "/cards/${cardId}/block"
+* Authorization header-ine tokeni elave et
+* Add body as file resource "block-reason.json"
+* Post request and display respons
+
+# Kartı blokdan çıxar
+* Initalize request specification
+* Add Endpoint "/cards/${cardId}/unblock"
+* Authorization header-ine tokeni elave et
+* Post request and display respons
+
+# Kartın statusu <status> olmalıdır
+* Initalize request specification
+* Add Endpoint "/cards/${cardId}"
+* Authorization header-ine tokeni elave et
+* Get request and display respons
+* Status kodunun "200" olmalıdır
+* Json cavabında "status" deyeri <status> beraberdir

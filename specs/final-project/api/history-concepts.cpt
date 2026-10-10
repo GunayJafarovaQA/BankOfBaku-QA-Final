@@ -1,0 +1,26 @@
+# Tarixçə üçün 3 ödəniş göndər
+* Ödəniş kartı yarat məbləğ "1000"
+* Ödəniş göndər təchizatçı "citynet" abunəçi "CN123456" məbləğ "10" açar "hst-a-${timestamp}"
+* Status kodunun "201" olmalıdır
+* Ödəniş göndər təchizatçı "azerisiq" abunəçi "1234567890" məbləğ "10" açar "hst-b-${timestamp}"
+* Status kodunun "201" olmalıdır
+* Ödəniş göndər təchizatçı "citynet" abunəçi "CN123456" məbləğ "20" açar "hst-c-${timestamp}"
+* Status kodunun "201" olmalıdır
+
+# Tarixçə üçün 7 ödəniş göndər
+* Ödəniş kartı yarat məbləğ "1000"
+* Ödəniş göndər təchizatçı "azerisiq" abunəçi "1234567890" məbləğ "1" açar "hs7-a-${timestamp}"
+* Ödəniş göndər təchizatçı "azerisiq" abunəçi "1234567890" məbləğ "2" açar "hs7-b-${timestamp}"
+* Ödəniş göndər təchizatçı "azerisiq" abunəçi "1234567890" məbləğ "3" açar "hs7-c-${timestamp}"
+* Ödəniş göndər təchizatçı "azerisiq" abunəçi "1234567890" məbləğ "4" açar "hs7-d-${timestamp}"
+* Ödəniş göndər təchizatçı "azerisiq" abunəçi "1234567890" məbləğ "5" açar "hs7-e-${timestamp}"
+* Ödəniş göndər təchizatçı "azerisiq" abunəçi "1234567890" məbləğ "6" açar "hs7-f-${timestamp}"
+* Ödəniş göndər təchizatçı "azerisiq" abunəçi "1234567890" məbləğ "7" açar "hs7-g-${timestamp}"
+* Status kodunun "201" olmalıdır
+
+# Tarixçəni al sorğu <query>
+* "qs" deyişenine <query> deyerini ver
+* Initalize request specification
+* Add Endpoint "/bill-payments${qs}"
+* Authorization header-ine tokeni elave et
+* Get request and display respons

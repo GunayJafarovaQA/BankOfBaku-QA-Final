@@ -52,3 +52,11 @@ tags: ui, loans
 * "4" saniye gözle
 * URL "/az/kreditler/nagd-pul-krediti/133" içermelidir
 * Brauzeri bağla
+
+## UI-LON-015 Latın sözlərdə kiril hərfi olmamalıdır: "Maks." (BUG-023)
+tags: ui, loans, known-bug
+
+* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/kreditler/nagd-pul-krediti/129"
+* "4" saniye gözle
+* JavaScript icra et "var t=document.body.innerText;var cyr=new RegExp('['+String.fromCharCode(1024)+'-'+String.fromCharCode(1279)+']');var lat=new RegExp('[A-Za-z]');var words=t.split(' ').join('~').split(String.fromCharCode(10)).join('~').split('~');var bad=words.filter(function(w){return cyr.test(w)&&lat.test(w)});if(bad.length>0) throw new Error('BUG-023: latın söz içində kiril hərfi: '+bad[0]+' ('+bad.length+' yer)')"
+* Brauzeri bağla

@@ -95,3 +95,12 @@ tags: ui, deposits
 * "Məbləğ Input" input deyeri "10000" olmalıdır
 * "Aylıq Ödəniş" elementinin metni "10975.00" olmalıdır
 * Brauzeri bağla
+
+## UI-DEP-020 Məlumat bloklarında sözlər ortadan kəsilməməlidir: word-break break-all olmamalıdır (BUG-022)
+tags: ui, deposits, known-bug
+
+* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/emanetler/dinamik-emanet"
+* "Məbləğ Input" görsensin deye maksimum "20" saniye gözle
+* "3" saniye gözle
+* JavaScript icra et "var bad=[].slice.call(document.querySelectorAll('h6,h5,span,p')).filter(function(e){return e.children.length===0&&e.offsetParent!==null&&e.innerText.trim().length>3&&getComputedStyle(e).wordBreak==='break-all'});if(bad.length>0) throw new Error('BUG-022: word-break break-all, '+bad.length+' element, məs. '+bad[0].innerText.trim())"
+* Brauzeri bağla

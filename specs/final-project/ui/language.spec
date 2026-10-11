@@ -50,8 +50,8 @@ tags: ui, language, known-bug
 * "Dil Menyusu" elementine klik et
 * "Dil EN" elementine JavaScript ile klik et
 * "Kalkulyator Başlıq" elementin içinde "Loan Calculator" yazısı var
-* 2 saniye gözle
-* JavaScript icra et "if(/site-title|pages\\./.test(document.title)) throw new Error('BUG-010: başlıq tərcümə açarıdır: '+document.title)"
+* "2" saniye gözle
+* JavaScript icra et "if(/site-title|pages\./.test(document.title)) throw new Error('BUG-010: başlıq tərcümə açarıdır: '+document.title)"
 * Brauzeri bağla
 
 ## UI-LNG-006 Dil seçimi yenilədikdən sonra saxlanılır

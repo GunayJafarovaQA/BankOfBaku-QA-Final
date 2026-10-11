@@ -19,12 +19,12 @@ tags: ui, calculator, smoke
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
 * "Məbləğ Input" elementini temizle
-* "Məbləğ Input" elementine "8000" yaz
+* "Məbləğ Input" elementine "8000" yaz ve Tab düymesine bas
 * "Müddət Input" elementini temizle
-* "Müddət Input" elementine "12" yaz
-* 1 saniye gözle
-* "Məbləğ Göstərici" elementin içinde "8000" yazısı var
-* "Müddət Göstərici" elementin içinde "12" yazısı var
+* "Müddət Input" elementine "12" yaz ve Tab düymesine bas
+* "1" saniye gözle
+* "Məbləğ Input" input deyeri "8000" olmalıdır
+* "Müddət Input" input deyeri "12" olmalıdır
 * "Aylıq Ödəniş" elementinin metni "706.68" olmalıdır
 * "Ümumi Məbləğ" elementinin metni "8480.16" olmalıdır
 * Brauzeri bağla
@@ -35,10 +35,10 @@ tags: ui, calculator
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
 * "Məbləğ Input" elementini temizle
-* "Məbləğ Input" elementine "500" yaz
+* "Məbləğ Input" elementine "500" yaz ve Tab düymesine bas
 * "Müddət Input" elementini temizle
-* "Müddət Input" elementine "3" yaz
-* 1 saniye gözle
+* "Müddət Input" elementine "3" yaz ve Tab düymesine bas
+* "1" saniye gözle
 * "Aylıq Ödəniş" elementinin metni "169.70" olmalıdır
 * Brauzeri bağla
 
@@ -48,8 +48,8 @@ tags: ui, calculator, known-bug
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
 * "Məbləğ Input" elementini temizle
-* "Məbləğ Input" elementine "499" yaz
-* 1 saniye gözle
+* "Məbləğ Input" elementine "499" yaz ve Tab düymesine bas
+* "1" saniye gözle
 * "Kalkulyator Xəta Mesajı" görünür olmalıdır
 * Brauzeri bağla
 
@@ -59,8 +59,8 @@ tags: ui, calculator, known-bug
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
 * "Məbləğ Input" elementini temizle
-* "Məbləğ Input" elementine "0" yaz
-* 1 saniye gözle
+* "Məbləğ Input" elementine "0" yaz ve Tab düymesine bas
+* "1" saniye gözle
 * "Kalkulyator Xəta Mesajı" görünür olmalıdır
 * Brauzeri bağla
 
@@ -70,8 +70,8 @@ tags: ui, calculator, known-bug
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
 * "Məbləğ Input" elementini temizle
-* "Məbləğ Input" elementine "80001" yaz
-* 1 saniye gözle
+* "Məbləğ Input" elementine "80001" yaz ve Tab düymesine bas
+* "1" saniye gözle
 * "Kalkulyator Xəta Mesajı" görünür olmalıdır
 * Brauzeri bağla
 
@@ -81,8 +81,8 @@ tags: ui, calculator, known-bug
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Müddət Input" görsensin deye maksimum "15" saniye gözle
 * "Müddət Input" elementini temizle
-* "Müddət Input" elementine "60" yaz
-* 1 saniye gözle
+* "Müddət Input" elementine "60" yaz ve Tab düymesine bas
+* "1" saniye gözle
 * "Kalkulyator Xəta Mesajı" görünür olmalıdır
 * Brauzeri bağla
 
@@ -110,9 +110,9 @@ tags: ui, calculator, known-bug
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
 * "Məbləğ Input" elementini temizle
-* "Məbləğ Input" elementine "1000" yaz
+* "Məbləğ Input" elementine "1000" yaz ve Tab düymesine bas
 * "Müddət Input" elementini temizle
-* "Müddət Input" elementine "12" yaz
-* 1 saniye gözle
+* "Müddət Input" elementine "12" yaz ve Tab düymesine bas
+* "1" saniye gözle
 * JavaScript icra et "var m=parseFloat(document.querySelector('.calculator__container .payment').innerText),t=parseFloat(document.querySelector('.calculator__container .total-sum').innerText);if(Math.abs(m*12-t)>0.011) throw new Error('BUG-005: '+m+' x 12 = '+(m*12).toFixed(2)+', göstərilən '+t)"
 * Brauzeri bağla

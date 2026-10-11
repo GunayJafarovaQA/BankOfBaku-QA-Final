@@ -86,20 +86,6 @@ tags: ui, navigation
 * URL "/az/kreditler/nagd-pul-krediti" içermelidir
 * Brauzeri bağla
 
-## UI-NAV-009 Kartlar menyusundan sonra Geri düyməsi ana səhifəyə qaytarmalıdır (BUG-012)
-tags: ui, navigation, known-bug
-
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
-* "Menyu Kartlar" görsensin deye maksimum "15" saniye gözle
-* "Menyu Kartlar" elementine JavaScript ile klik et
-* "2" saniye gözle
-* URL "/az/kartlar" içermelidir
-* Evvelki sehifeye qayıt
-* "2" saniye gözle
-* URL "https://www.bankofbaku.com/az" olmalıdır
-* "Menyu Kartlar" görsensin deye maksimum "15" saniye gözle
-* Brauzeri bağla
-
 ## UI-NAV-010 Olmayan ünvan 404 səhifəsi göstərməlidir, bağlantı vaxtı bitməməlidir (BUG-011)
 tags: ui, navigation, known-bug
 

@@ -1,39 +1,150 @@
 {
-  "Logo": { "locatorType": "CSS", "locatorValue": "a.logo" },
-  "Dil Menyusu": { "locatorType": "CSS", "locatorValue": ".languages .default-lang" },
-  "Dil EN": { "locatorType": "XPATH", "locatorValue": "//div[contains(@class,'languages')]//li/a[normalize-space()='EN']" },
-  "Dil RU": { "locatorType": "XPATH", "locatorValue": "//div[contains(@class,'languages')]//li/a[normalize-space()='RU']" },
-  "Dil AZ": { "locatorType": "XPATH", "locatorValue": "//div[contains(@class,'languages')]//li/a[normalize-space()='AZ']" },
-  "Kalkulyator Başlıq": { "locatorType": "CSS", "locatorValue": "h4.calculator__title" },
-
-  "Menyu Fərdi": { "locatorType": "XPATH", "locatorValue": "(//a[@href='/az' and normalize-space()='Fərdi'])[1]" },
-  "Menyu Biznes": { "locatorType": "XPATH", "locatorValue": "(//a[@href='/az/biznes' and normalize-space()='Biznes'])[1]" },
-  "Menyu Bank haqqında": { "locatorType": "XPATH", "locatorValue": "(//a[@href='/az/bank-haqqinda'])[1]" },
-  "Menyu İnternet bankçılıq": { "locatorType": "XPATH", "locatorValue": "(//a[contains(@href,'e-bankofbaku.com/InterBankNew/login')])[1]" },
-  "Menyu Kartlar": { "locatorType": "XPATH", "locatorValue": "(//a[@class='dropdown-link' and @href='/az/kartlar'])[1]" },
-  "Menyu Kreditlər": { "locatorType": "XPATH", "locatorValue": "(//a[@class='dropdown-link' and @href='/az/kreditler'])[1]" },
-  "Menyu Əmanətlər": { "locatorType": "XPATH", "locatorValue": "(//a[@class='dropdown-link' and @href='/az/emanetler'])[1]" },
-  "Menyu Pul köçürmələri": { "locatorType": "XPATH", "locatorValue": "(//a[@class='dropdown-link' and @href='/az/pul-kocurmeleri'])[1]" },
-  "Menyu Onlayn xidmətlər": { "locatorType": "XPATH", "locatorValue": "(//a[@class='dropdown-link' and @href='/az/onlayn-xidmetler'])[1]" },
-  "Menyu Digər xidmətlər": { "locatorType": "XPATH", "locatorValue": "(//a[@class='dropdown-link' and @href='/az/diger-xidmetler'])[1]" },
-  "Menyu Debet": { "locatorType": "XPATH", "locatorValue": "(//a[@href='/az/kartlar/debet'])[1]" },
-  "Menyu Nağd Pul krediti": { "locatorType": "XPATH", "locatorValue": "(//a[@href='/az/kreditler/nagd-pul-krediti'])[1]" },
-
-  "Kredit Növü Seçimi": { "locatorType": "CSS", "locatorValue": ".calculator__container .select_box" },
-  "Kredit Növü Seçilmiş": { "locatorType": "CSS", "locatorValue": ".calculator__container .select_box .selected" },
-  "Kredit Növü Seçimləri": { "locatorType": "CSS", "locatorValue": ".calculator__container .select_box .options span" },
-  "Məbləğ Input": { "locatorType": "CSS", "locatorValue": ".calculator__container input.range_input" },
-  "Müddət Input": { "locatorType": "CSS", "locatorValue": ".calculator__container input.range_input_month" },
-  "Məbləğ Göstərici": { "locatorType": "XPATH", "locatorValue": "(//div[@class='calculator__container home']//span[@class='range__count'])[1]" },
-  "Müddət Göstərici": { "locatorType": "XPATH", "locatorValue": "(//div[@class='calculator__container home']//span[@class='range__count'])[2]" },
-  "Aylıq Ödəniş": { "locatorType": "CSS", "locatorValue": ".calculator__container .calculator__monthly .payment" },
-  "Ümumi Məbləğ": { "locatorType": "CSS", "locatorValue": ".calculator__container .total-sum" },
-  "Kalkulyator Müraciət Düyməsi": { "locatorType": "CSS", "locatorValue": ".calculator__container a.link-to-apply" },
-  "Kalkulyator Xəta Mesajı": { "locatorType": "CSS", "locatorValue": ".calculator__container [class*='error'], .calculator__container [class*='invalid-feedback']" },
-
-  "Məzənnə Cədvəli Nağd": { "locatorType": "XPATH", "locatorValue": "(//table[@class='tg'])[1]" },
-  "Məzənnə Cədvəli": { "locatorType": "XPATH", "locatorValue": "//table[@class='tg']" },
-  "Məzənnə Sətirləri Nağd": { "locatorType": "XPATH", "locatorValue": "(//table[@class='tg'])[1]//tr" },
-  "Məzənnə Konvertor Məbləğ": { "locatorType": "CSS", "locatorValue": "input[name='sale']" },
-  "Məzənnə Konvertor Nəticə": { "locatorType": "CSS", "locatorValue": "input[name='converted']" }
+  "Logo": {
+    "locatorType": "CSS",
+    "locatorValue": "a.logo"
+  },
+  "Dil Menyusu": {
+    "locatorType": "CSS",
+    "locatorValue": ".languages .default-lang"
+  },
+  "Dil EN": {
+    "locatorType": "XPATH",
+    "locatorValue": "//div[contains(@class,'languages')]//li/a[normalize-space()='EN']"
+  },
+  "Dil RU": {
+    "locatorType": "XPATH",
+    "locatorValue": "//div[contains(@class,'languages')]//li/a[normalize-space()='RU']"
+  },
+  "Dil AZ": {
+    "locatorType": "XPATH",
+    "locatorValue": "//div[contains(@class,'languages')]//li/a[normalize-space()='AZ']"
+  },
+  "Kalkulyator Başlıq": {
+    "locatorType": "CSS",
+    "locatorValue": "h4.calculator__title"
+  },
+  "Menyu Fərdi": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[@href='/az' and normalize-space()='Fərdi'])[1]"
+  },
+  "Menyu Biznes": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[@href='/az/biznes' and normalize-space()='Biznes'])[1]"
+  },
+  "Menyu Bank haqqında": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[@href='/az/bank-haqqinda'])[1]"
+  },
+  "Menyu İnternet bankçılıq": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[contains(@href,'e-bankofbaku.com/InterBankNew/login')])[1]"
+  },
+  "Menyu Kartlar": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[@class='dropdown-link' and @href='/az/kartlar'])[1]"
+  },
+  "Menyu Kreditlər": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[@class='dropdown-link' and @href='/az/kreditler'])[1]"
+  },
+  "Menyu Əmanətlər": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[@class='dropdown-link' and @href='/az/emanetler'])[1]"
+  },
+  "Menyu Pul köçürmələri": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[@class='dropdown-link' and @href='/az/pul-kocurmeleri'])[1]"
+  },
+  "Menyu Onlayn xidmətlər": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[@class='dropdown-link' and @href='/az/onlayn-xidmetler'])[1]"
+  },
+  "Menyu Digər xidmətlər": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[@class='dropdown-link' and @href='/az/diger-xidmetler'])[1]"
+  },
+  "Menyu Debet": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[@href='/az/kartlar/debet'])[1]"
+  },
+  "Menyu Nağd Pul krediti": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//a[@href='/az/kreditler/nagd-pul-krediti'])[1]"
+  },
+  "Kredit Növü Seçimi": {
+    "locatorType": "CSS",
+    "locatorValue": ".calculator__container .select_box"
+  },
+  "Kredit Növü Seçilmiş": {
+    "locatorType": "CSS",
+    "locatorValue": ".calculator__container .select_box .selected"
+  },
+  "Kredit Növü Seçimləri": {
+    "locatorType": "CSS",
+    "locatorValue": ".calculator__container .select_box .options span"
+  },
+  "Məbləğ Input": {
+    "locatorType": "CSS",
+    "locatorValue": ".calculator__container input.range_input"
+  },
+  "Müddət Input": {
+    "locatorType": "CSS",
+    "locatorValue": ".calculator__container input.range_input_month"
+  },
+  "Məbləğ Göstərici": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//div[@class='calculator__container home']//span[@class='range__count'])[1]"
+  },
+  "Müddət Göstərici": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//div[@class='calculator__container home']//span[@class='range__count'])[2]"
+  },
+  "Aylıq Ödəniş": {
+    "locatorType": "CSS",
+    "locatorValue": ".calculator__container .calculator__monthly .payment"
+  },
+  "Ümumi Məbləğ": {
+    "locatorType": "CSS",
+    "locatorValue": ".calculator__container .total-sum"
+  },
+  "Kalkulyator Müraciət Düyməsi": {
+    "locatorType": "CSS",
+    "locatorValue": ".calculator__container a.link-to-apply"
+  },
+  "Kalkulyator Xəta Mesajı": {
+    "locatorType": "CSS",
+    "locatorValue": ".calculator__container [class*='error'], .calculator__container [class*='invalid-feedback']"
+  },
+  "Məzənnə Cədvəli Nağd": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//table[@class='tg'])[1]"
+  },
+  "Məzənnə Cədvəli": {
+    "locatorType": "XPATH",
+    "locatorValue": "//table[@class='tg']"
+  },
+  "Məzənnə Sətirləri Nağd": {
+    "locatorType": "XPATH",
+    "locatorValue": "(//table[@class='tg'])[1]//tr"
+  },
+  "Məzənnə Konvertor Məbləğ": {
+    "locatorType": "CSS",
+    "locatorValue": "input[name='sale']"
+  },
+  "Məzənnə Konvertor Nəticə": {
+    "locatorType": "CSS",
+    "locatorValue": "input[name='converted']"
+  },
+  "Konvertor Satış Məbləği": {
+    "locatorType": "CSS",
+    "locatorValue": ".convertor input[name='sale']"
+  },
+  "Konvertor Nəticə": {
+    "locatorType": "CSS",
+    "locatorValue": ".convertor input[name='converted']"
+  },
+  "Axtarış Nəticə Sayı": {
+    "locatorType": "CSS",
+    "locatorValue": ".result span"
+  }
 }

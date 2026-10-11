@@ -115,5 +115,5 @@ tags: ui, navigation, known-bug
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Logo" görsensin deye maksimum "15" saniye gözle
 * "3" saniye gözle
-* JavaScript icra et "var bad=[].slice.call(document.querySelectorAll('a[href]')).filter(function(a){var u=new URL(a.href,location.href);return u.hostname==='www.bankofbaku.com'&&!/^\/(az|en|ru)(\/|$)/.test(u.pathname)}).map(function(a){return a.getAttribute('href')});if(bad.length>0) throw new Error('BUG-013: dil prefiksi olmayan link sayı '+bad.length+', məsələn '+bad[0])"
+* JavaScript icra et "var re=new RegExp('^/(az|en|ru)(/|$)');var bad=[].slice.call(document.querySelectorAll('a[href]')).filter(function(a){var u=new URL(a.href,location.href);return u.hostname==='www.bankofbaku.com'&&!re.test(u.pathname)}).map(function(a){return a.getAttribute('href')});if(bad.length>0) throw new Error('BUG-013: dil prefiksi olmayan link sayı '+bad.length+', məsələn '+bad[0])"
 * Brauzeri bağla

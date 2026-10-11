@@ -33,12 +33,19 @@ tags: ui, language
 * URL "/ru" içermelidir
 * Brauzeri bağla
 
-## UI-LNG-003 /en linkində html lang və başlıq İngilis dilindədir (BUG-008, BUG-009)
+## UI-LNG-003 /en linkində html lang İngilis dilindədir (BUG-008)
 tags: ui, language, known-bug
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/en"
 * "Kalkulyator Başlıq" görsensin deye maksimum "15" saniye gözle
 * JavaScript icra et "if(document.documentElement.lang!=='en') throw new Error('BUG-008: /en səhifəsində html lang='+document.documentElement.lang)"
+* Brauzeri bağla
+
+## UI-LNG-003b /en linkində başlıq (title) İngilis dilindədir (BUG-009)
+tags: ui, language, known-bug
+
+* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/en"
+* "Kalkulyator Başlıq" görsensin deye maksimum "15" saniye gözle
 * JavaScript icra et "if(/Sizə yaxın/.test(document.title)) throw new Error('BUG-009: /en səhifəsində başlıq Azərbaycan dilindədir: '+document.title)"
 * Brauzeri bağla
 
@@ -51,7 +58,7 @@ tags: ui, language, known-bug
 * "Dil EN" elementine JavaScript ile klik et
 * "Kalkulyator Başlıq" elementin içinde "Loan Calculator" yazısı var
 * "2" saniye gözle
-* JavaScript icra et "if(/site-title|pages\./.test(document.title)) throw new Error('BUG-010: başlıq tərcümə açarıdır: '+document.title)"
+* JavaScript icra et "if(/site-title|pages[.]/.test(document.title)) throw new Error('BUG-010: başlıq tərcümə açarıdır: '+document.title)"
 * Brauzeri bağla
 
 ## UI-LNG-006 Dil seçimi yenilədikdən sonra saxlanılır

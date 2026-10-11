@@ -146,5 +146,37 @@
   "Axtarış Nəticə Sayı": {
     "locatorType": "CSS",
     "locatorValue": ".result span"
+  },
+  "Xəritə Konteyneri": {
+    "locatorType": "CSS",
+    "locatorValue": ".map-filial"
+  },
+  "Xidmət Tab Aktiv": {
+    "locatorType": "CSS",
+    "locatorValue": ".card__tabs .sw-item.active"
+  },
+  "Xidmət Tab Filiallar": {
+    "locatorType": "CSS",
+    "locatorValue": ".card__tabs a[href$='/filiallar']"
+  },
+  "Xidmət Tab Bankomatlar": {
+    "locatorType": "CSS",
+    "locatorValue": ".card__tabs a[href$='/bankomatlar']"
+  },
+  "Xidmət Tab Terminallar": {
+    "locatorType": "CSS",
+    "locatorValue": ".card__tabs a[href$='/odenish-terminallari']"
+  },
+  "Mobil Menyu Düyməsi": {
+    "locatorType": "CSS",
+    "locatorValue": "a.open-mobile-menu"
+  },
+  "Mobil Menyu Açıq": {
+    "locatorType": "CSS",
+    "locatorValue": ".mobile-menu.active"
+  },
+  "Mobil Menyu Bağlı": {
+    "locatorType": "CSS",
+    "locatorValue": ".mobile-menu:not(.active)"
   }
 }

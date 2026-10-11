@@ -186,5 +186,17 @@
   "Kart Tab Kredit kartları": {
     "locatorType": "XPATH",
     "locatorValue": "//div[contains(@class,'card__tabs')]//a[normalize-space()='Kredit kartları']"
+  },
+  "Xəbər Kartı": {
+    "locatorType": "CSS",
+    "locatorValue": "a.news-card"
+  },
+  "Səhifələmə 2": {
+    "locatorType": "XPATH",
+    "locatorValue": "//ul[contains(@class,'pagination')]//li[normalize-space()='2']//a"
+  },
+  "FAQ Sual": {
+    "locatorType": "CSS",
+    "locatorValue": "h2.faq__question"
   }
 }

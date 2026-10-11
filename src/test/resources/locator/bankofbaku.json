@@ -178,5 +178,13 @@
   "Mobil Menyu Bağlı": {
     "locatorType": "CSS",
     "locatorValue": ".mobile-menu:not(.active)"
+  },
+  "Ətraflı Düyməsi": {
+    "locatorType": "CSS",
+    "locatorValue": "a.btn-m.white"
+  },
+  "Kart Tab Kredit kartları": {
+    "locatorType": "XPATH",
+    "locatorValue": "//div[contains(@class,'card__tabs')]//a[normalize-space()='Kredit kartları']"
   }
 }

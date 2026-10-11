@@ -10,7 +10,7 @@ tags: ui, branches, smoke
 * "Xidmət Tab Terminallar" elementinin "href" atributunda "/az/xidmet-shebekeleri/odenish-terminallari" olmalıdır
 * Brauzeri bağla
 
-## UI-BRN-002 Bankomatlar tabına keçid
+## UI-BRN-008 Bankomatlar tabına keçid
 tags: ui, branches
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/xidmet-shebekeleri/filiallar"
@@ -22,7 +22,7 @@ tags: ui, branches
 * "Xəritə Konteyneri" görsensin deye maksimum "20" saniye gözle
 * Brauzeri bağla
 
-## UI-BRN-003 Ödəniş terminalları tabına keçid
+## UI-BRN-009 Ödəniş terminalları tabına keçid
 tags: ui, branches
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/xidmet-shebekeleri/filiallar"
@@ -34,7 +34,7 @@ tags: ui, branches
 * "Xəritə Konteyneri" görsensin deye maksimum "20" saniye gözle
 * Brauzeri bağla
 
-## UI-BRN-004 Bankomatlar səhifəsi birbaşa ünvanla açılır (F5 deep link)
+## UI-BRN-010 Bankomatlar səhifəsi birbaşa ünvanla açılır (F5 deep link)
 tags: ui, branches
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/xidmet-shebekeleri/bankomatlar"

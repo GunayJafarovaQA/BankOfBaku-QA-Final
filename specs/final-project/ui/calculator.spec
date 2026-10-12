@@ -18,6 +18,7 @@ tags: ui, calculator, smoke
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
+* "3" saniye gözle
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "8000" yaz ve Tab düymesine bas
 * "Müddət Input" elementini temizle
@@ -34,6 +35,7 @@ tags: ui, calculator
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
+* "3" saniye gözle
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "500" yaz ve Tab düymesine bas
 * "Müddət Input" elementini temizle
@@ -47,6 +49,7 @@ tags: ui, calculator, known-bug
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
+* "3" saniye gözle
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "499" yaz ve Tab düymesine bas
 * "1" saniye gözle
@@ -58,6 +61,7 @@ tags: ui, calculator, known-bug
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
+* "3" saniye gözle
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "0" yaz ve Tab düymesine bas
 * "1" saniye gözle
@@ -69,6 +73,7 @@ tags: ui, calculator, known-bug
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
+* "3" saniye gözle
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "80001" yaz ve Tab düymesine bas
 * "1" saniye gözle
@@ -80,6 +85,7 @@ tags: ui, calculator, known-bug
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Müddət Input" görsensin deye maksimum "15" saniye gözle
+* "3" saniye gözle
 * "Müddət Input" elementini temizle
 * "Müddət Input" elementine "60" yaz ve Tab düymesine bas
 * "1" saniye gözle
@@ -91,6 +97,9 @@ tags: ui, calculator
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Kredit Növü Seçimi" görsensin deye maksimum "15" saniye gözle
+* "5" saniye gözle
+* JavaScript icra et "document.querySelector('.calculator__container .select_box').scrollIntoView({block:'center'})"
+* "3" saniye gözle
 * "Kredit Növü Seçimi" elementine klik et
 * "Kredit Növü Seçimləri" siyahısında "Lombard krediti" metnli elemente klik et
 * "Kredit Növü Seçilmiş" elementin içinde "Lombard krediti" yazısı var
@@ -109,6 +118,7 @@ tags: ui, calculator, known-bug
 
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
+* "3" saniye gözle
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "1000" yaz ve Tab düymesine bas
 * "Müddət Input" elementini temizle

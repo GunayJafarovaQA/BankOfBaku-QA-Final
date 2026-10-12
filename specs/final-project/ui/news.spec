@@ -42,8 +42,10 @@ tags: ui, news
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/xeberler"
 * "Xəbər Kartı" görsensin deye maksimum "20" saniye gözle
 * JavaScript icra et "sessionStorage.setItem('n1',document.querySelector('a.news-card').getAttribute('href'))"
-* "Səhifələmə 2" elementine JavaScript ile klik et
-* "4" saniye gözle
+* "5" saniye gözle
+* JavaScript icra et "var li=[].slice.call(document.querySelectorAll('ul.pagination li')).filter(function(l){return l.innerText.trim()==='2'})[0];li.querySelector('a').click()"
+* "6" saniye gözle
+* JavaScript icra et "if(document.querySelectorAll('a.news-card').length===0) throw new Error('DIAG url='+location.href+' title='+document.title+' len='+document.body.innerText.length+' txt='+document.body.innerText.slice(0,150).split(String.fromCharCode(10)).join(' / '))"
 * JavaScript icra et "if(document.querySelector('a.news-card').getAttribute('href')===sessionStorage.getItem('n1')) throw new Error('Siyahı dəyişmədi')"
 * JavaScript icra et "var a=document.querySelector('ul.pagination li.active');if(a===null||a.innerText.trim()!=='2') throw new Error('Aktiv səhifə 2 deyil')"
 * Brauzeri bağla

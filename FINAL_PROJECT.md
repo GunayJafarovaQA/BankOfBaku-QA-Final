@@ -28,7 +28,7 @@ Hesabat: `reports/` qovluğu (Gauge HTML report).
 ## Sənədlər (`docs/`)
 - `Final_Project_API_Test_Cases_v2.xlsx` – API test case-lər, avtomatlaşdırma planı, izlənmə matrisi
 - `Final_Project_UI_Test_Cases.xlsx` – 274 UI test case (prioritet, tip, status, avtomatlaşdırma)
-- `Final_Project_UI_Bug_Siyahisi.xlsx` – təsdiqlənmiş bug siyahısı (31 bug, BUG-001…032), screenshot-lar
+- `Final_Project_UI_Bug_Siyahisi.xlsx` – təsdiqlənmiş bug siyahısı (26 bug), screenshot-lar
 - `Final_Project_UI_Ehate_Statusu.xlsx` – modul üzrə əhatə statusu
 
 ## UI nəticələri

@@ -1,0 +1,40 @@
+# Yeni təmiz sandbox ilə user1 kimi daxil ol
+* "/auth/login" ünvanına "login-user1.json" ile yeni sessiya açaraq login ol ve "token" tokenini yadda saxla
+
+# Alıcı yarat ad <fullName> iban <iban> valyuta <currency> ləqəb <nickname>
+* "fullName" deyişenine <fullName> deyerini ver
+* "iban" deyişenine <iban> deyerini ver
+* "currency" deyişenine <currency> deyerini ver
+* "nickname" deyişenine <nickname> deyerini ver
+* Initalize request specification
+* Add Endpoint "/beneficiaries"
+* Authorization header-ine tokeni elave et
+* Add body as file resource "ben-create.json"
+* Post request and display respons
+
+# Alıcı yarat ad <fullName> iban <iban> valyuta <currency>
+* "fullName" deyişenine <fullName> deyerini ver
+* "iban" deyişenine <iban> deyerini ver
+* "currency" deyişenine <currency> deyerini ver
+* Initalize request specification
+* Add Endpoint "/beneficiaries"
+* Authorization header-ine tokeni elave et
+* Add body as file resource "ben-create-no-nick.json"
+* Post request and display respons
+
+# Alıcılar siyahısında total <total> olmalıdır
+* Initalize request specification
+* Add Endpoint "/beneficiaries"
+* Authorization header-ine tokeni elave et
+* Get request and display respons
+* Status kodunun "200" olmalıdır
+* Json cavabında "total" deyeri integer <total> beraberdir
+
+# Validasiya xətası olmalıdır sahə <field>
+* Status kodunun "400" olmalıdır
+* Json cavabında "code" deyeri "VALIDATION_ERROR" beraberdir
+* Json cavabında "details.field" deyerinde <field> olmalıdır
+
+# Xəta cavabı olmalıdır status <status> code <code>
+* Status kodunun <status> olmalıdır
+* Json cavabında "code" deyeri <code> beraberdir

@@ -42,6 +42,7 @@ tags: ui, mobile
 * "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
 * Pencere ölçüsünü "500" x "900" et
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
+* "3" saniye gözle
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "3000" yaz ve Tab düymesine bas
 * "2" saniye gözle

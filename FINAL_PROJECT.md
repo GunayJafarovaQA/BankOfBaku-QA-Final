@@ -33,7 +33,7 @@ Hesabat: `reports/` qovluğu (Gauge HTML report).
 
 ## UI nəticələri
 - 24 modul, 20-si avtomatlaşdırılıb (83%)
-- 274 test case: 196 Keçdi, 52 Uğursuz, 5 Bloklanıb, 21 İcra olunmayıb
+- 274 test case: 202 Keçdi, 52 Uğursuz, 5 Bloklanıb, 15 İcra olunmayıb
 - 97 Selenium ssenarisi: 75 sabit, 22 məlum bug (`known-bug` teqi ilə)
 
 ## Əhatədən kənar (məqsədli)

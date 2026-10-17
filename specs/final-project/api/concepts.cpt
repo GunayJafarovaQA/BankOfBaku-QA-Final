@@ -34,7 +34,9 @@
 * Status kodunun "400" olmalıdır
 * Json cavabında "code" deyeri "VALIDATION_ERROR" beraberdir
 * Json cavabında "details.field" deyerinde <field> olmalıdır
+* Cavab "error.schema.json" JSON schema-sına uyğun olmalıdır
 
 # Xəta cavabı olmalıdır status <status> code <code>
 * Status kodunun <status> olmalıdır
 * Json cavabında "code" deyeri <code> beraberdir
+* Cavab "error.schema.json" JSON schema-sına uyğun olmalıdır

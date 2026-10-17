@@ -7,15 +7,18 @@ README.md / README.az.md framework-ün özünün təsviridir; bu fayl yekun layi
 ## Test obyektləri
 | Hissə | Obyekt | Ssenari sayı | Qovluq |
 |---|---|---|---|
-| API | Bank API (beneficiaries, billers, bill payments/history, cards) | 116 | `specs/final-project/api/` |
+| API | Ayrıca sandbox bank API-si, api.anarabbas.com (beneficiaries, billers, bill payments/history, cards) | 123 (116 + 7 data-driven) | `specs/final-project/api/` |
 | UI | https://www.bankofbaku.com/az | 97 (75 sabit + 22 məlum bug) | `specs/final-project/ui/` |
 
 ## İşə salma
-```bash
-export JAVA_TOOL_OPTIONS="-Duser.language=en -Duser.country=US"
+Bir komanda ilə hər iki dəst (API + UI sabit ssenarilər): `bash run_all.sh`
 
-# API
-mvn test -Dgauge.specs.dir=specs/final-project/api -Dtags='grad-101'
+Ayrı-ayrılıqda:
+```bash
+export JAVA_TOOL_OPTIONS="-Duser.language=en -Duser.country=US -Djava.net.preferIPv4Stack=true"
+
+# API (hamısı)
+mvn test -Dgauge.specs.dir=specs/final-project/api
 
 # UI – sabit ssenarilər (hamısı keçməlidir)
 mvn test -Dgauge.specs.dir=specs/final-project/ui -Dtags='ui & !known-bug'
@@ -23,7 +26,10 @@ mvn test -Dgauge.specs.dir=specs/final-project/ui -Dtags='ui & !known-bug'
 # UI – məlum bug ssenariləri (bug-ları təsdiqləmək üçün, uğursuz olması gözlənilir)
 mvn test -Dgauge.specs.dir=specs/final-project/ui -Dtags='ui & known-bug'
 ```
-Hesabat: `reports/` qovluğu (Gauge HTML report).
+Hesabat: `reports/html-report/index.html` (Gauge HTML report).
+
+Data-driven nümunə: `specs/final-project/api/beneficiaries-data-driven.spec` (Gauge data table, 7 sətir).
+JSON schema yoxlamaları: `src/test/resources/schema/` (beneficiary, beneficiary-list, card, error).
 
 ## Sənədlər (`docs/`)
 - `Final_Project_API_Test_Cases_v2.xlsx` – API test case-lər, avtomatlaşdırma planı, izlənmə matrisi

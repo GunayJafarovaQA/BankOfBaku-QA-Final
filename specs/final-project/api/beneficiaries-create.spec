@@ -11,6 +11,7 @@ tags: grad-101, regression, positive, tc-ben-001
 
 * Alıcı yarat ad "Nigar Əliyeva" iban "AZ77AIIB40060019440123456789" valyuta "AZN" ləqəb "Anam"
 * Status kodunun "201" olmalıdır
+* Cavab "beneficiary.schema.json" JSON schema-sına uyğun olmalıdır
 * Header "Location" deyerini "location" olaraq yadda saxla
 * Json cavabında "id" deyerini "benId" olaraq yadda saxla
 * Json cavabında "id" deyeri "ben_.{8}" regex-ine uyğun olmalıdır

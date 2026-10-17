@@ -9,9 +9,7 @@ təmizlənmir, ilkin dəyərin üstünə əlavə olunur (100 + "00" = 10000, 1 +
 ## UI-DEP-007 Dinamik əmanət: ilkin vəziyyət və hesablama
 tags: ui, deposits, smoke
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/emanetler/dinamik-emanet"
-* "Məbləğ Input" görsensin deye maksimum "20" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az/emanetler/dinamik-emanet" hazır element "Məbləğ Input"
 * "Məbləğ Input" input deyeri "100" olmalıdır
 * "Müddət Input" input deyeri "1" olmalıdır
 * "Aylıq Ödəniş" elementinin metni "100.58" olmalıdır
@@ -20,13 +18,10 @@ tags: ui, deposits, smoke
 ## UI-DEP-008 Dinamik əmanət: 10000 AZN, 12 ay
 tags: ui, deposits
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/emanetler/dinamik-emanet"
-* "Məbləğ Input" görsensin deye maksimum "20" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az/emanetler/dinamik-emanet" hazır element "Məbləğ Input"
 * "Məbləğ Input" elementine "00" yaz ve Tab düymesine bas
 * "2" saniye gözle
 * "Müddət Input" elementine "2" yaz ve Tab düymesine bas
-* "2" saniye gözle
 * "Məbləğ Input" input deyeri "10000" olmalıdır
 * "Müddət Input" input deyeri "12" olmalıdır
 * "Aylıq Ödəniş" elementinin metni "10950.00" olmalıdır
@@ -35,13 +30,10 @@ tags: ui, deposits
 ## UI-DEP-009 Dinamik əmanət: 10000 AZN, 18 ay
 tags: ui, deposits
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/emanetler/dinamik-emanet"
-* "Məbləğ Input" görsensin deye maksimum "20" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az/emanetler/dinamik-emanet" hazır element "Məbləğ Input"
 * "Məbləğ Input" elementine "00" yaz ve Tab düymesine bas
 * "2" saniye gözle
 * "Müddət Input" elementine "8" yaz ve Tab düymesine bas
-* "2" saniye gözle
 * "Müddət Input" input deyeri "18" olmalıdır
 * "Aylıq Ödəniş" elementinin metni "11462.50" olmalıdır
 * Brauzeri bağla
@@ -49,9 +41,7 @@ tags: ui, deposits
 ## UI-DEP-010 Digital Depozit: ilkin vəziyyət və hesablama
 tags: ui, deposits
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/emanetler/digital-depozit"
-* "Məbləğ Input" görsensin deye maksimum "20" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az/emanetler/digital-depozit" hazır element "Məbləğ Input"
 * "Məbləğ Input" input deyeri "100" olmalıdır
 * "Aylıq Ödəniş" elementinin metni "100.60" olmalıdır
 * Brauzeri bağla
@@ -59,9 +49,7 @@ tags: ui, deposits
 ## UI-DEP-011 Maksimumdan böyük müddət rədd edilməli və ya xəta göstərilməlidir (BUG-019)
 tags: ui, deposits, known-bug
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/emanetler/dinamik-emanet"
-* "Məbləğ Input" görsensin deye maksimum "20" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az/emanetler/dinamik-emanet" hazır element "Məbləğ Input"
 * "Müddət Input" elementini temizle
 * "1" saniye gözle
 * "Müddət Input" elementine "37" yaz ve Tab düymesine bas
@@ -72,9 +60,7 @@ tags: ui, deposits, known-bug
 ## UI-DEP-012 Maksimumdan çox məbləğ rədd edilməli və ya xəta göstərilməlidir (BUG-018)
 tags: ui, deposits, known-bug
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/emanetler/dinamik-emanet"
-* "Məbləğ Input" görsensin deye maksimum "20" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az/emanetler/dinamik-emanet" hazır element "Məbləğ Input"
 * "Məbləğ Input" elementini temizle
 * "1" saniye gözle
 * "Məbləğ Input" elementine "10000001" yaz ve Tab düymesine bas
@@ -85,13 +71,10 @@ tags: ui, deposits, known-bug
 ## UI-DEP-013 Digital Depozit: 10000 AZN, 12 ay
 tags: ui, deposits
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/emanetler/digital-depozit"
-* "Məbləğ Input" görsensin deye maksimum "20" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az/emanetler/digital-depozit" hazır element "Məbləğ Input"
 * "Məbləğ Input" elementine "00" yaz ve Tab düymesine bas
 * "2" saniye gözle
 * "Müddət Input" elementine "2" yaz ve Tab düymesine bas
-* "2" saniye gözle
 * "Məbləğ Input" input deyeri "10000" olmalıdır
 * "Aylıq Ödəniş" elementinin metni "10975.00" olmalıdır
 * Brauzeri bağla
@@ -99,8 +82,6 @@ tags: ui, deposits
 ## UI-DEP-020 Məlumat bloklarında sözlər ortadan kəsilməməlidir: word-break break-all olmamalıdır (BUG-022)
 tags: ui, deposits, known-bug
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/emanetler/dinamik-emanet"
-* "Məbləğ Input" görsensin deye maksimum "20" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az/emanetler/dinamik-emanet" hazır element "Məbləğ Input"
 * JavaScript icra et "var bad=[].slice.call(document.querySelectorAll('h6,h5,span,p')).filter(function(e){return e.children.length===0&&e.offsetParent!==null&&e.innerText.trim().length>3&&getComputedStyle(e).wordBreak==='break-all'});if(bad.length>0) throw new Error('BUG-022: word-break break-all, '+bad.length+' element, məs. '+bad[0].innerText.trim())"
 * Brauzeri bağla

@@ -13,6 +13,7 @@ tags: grad-102, regression, positive, tc-lst-001
 * Alıcılar siyahısı sorğusunu hazırla
 * Get request and display respons
 * Status kodunun "200" olmalıdır
+* Cavab "beneficiary-list.schema.json" JSON schema-sına uyğun olmalıdır
 * Json cavabında "total" deyeri "5" beraberdir
 * Json cavabında "items" massivinin ölçüsü "5" olmalıdır
 * Json cavabını cedvel ile yoxla

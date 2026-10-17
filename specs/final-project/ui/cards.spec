@@ -5,7 +5,7 @@ Yalnız oxuma yoxlamaları. "Müraciət et" düymələri basılmır, formalar g�
 ## UI-CRD-007 Debet kartlar siyahısı yüklənir
 tags: ui, cards, smoke
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/kartlar/debet"
+* "chrome" brauzeri aç ve keçid et "/az/kartlar/debet"
 * "Ətraflı Düyməsi" görsensin deye maksimum "20" saniye gözle
 * JavaScript icra et "var n=document.querySelectorAll('a.btn-m.white').length;if(n<5) throw new Error('Debet kart sayı az: '+n)"
 * "Xidmət Tab Aktiv" elementinin metni "Debet" olmalıdır
@@ -14,7 +14,7 @@ tags: ui, cards, smoke
 ## UI-CRD-008 Kredit kartları tabına keçid
 tags: ui, cards
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/kartlar/debet"
+* "chrome" brauzeri aç ve keçid et "/az/kartlar/debet"
 * "Kart Tab Kredit kartları" görsensin deye maksimum "20" saniye gözle
 * "Kart Tab Kredit kartları" elementine JavaScript ile klik et
 * "3" saniye gözle
@@ -26,7 +26,7 @@ tags: ui, cards
 ## UI-CRD-009 Debet kartın ətraflı səhifəsi açılır
 tags: ui, cards
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/kartlar/debet"
+* "chrome" brauzeri aç ve keçid et "/az/kartlar/debet"
 * "Ətraflı Düyməsi" görsensin deye maksimum "20" saniye gözle
 * "Ətraflı Düyməsi" elementine JavaScript ile klik et
 * "4" saniye gözle
@@ -37,7 +37,7 @@ tags: ui, cards
 ## UI-CRD-010 Müraciət düymələri düzgün ünvana yönləndirir (basılmır)
 tags: ui, cards
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az/kartlar/debet"
+* "chrome" brauzeri aç ve keçid et "/az/kartlar/debet"
 * "Ətraflı Düyməsi" görsensin deye maksimum "20" saniye gözle
 * JavaScript icra et "var re=new RegExp('kredit[.]bankofbaku[.]com/az/|/az/sorgular/');var l=[].slice.call(document.querySelectorAll('a.btn-m')).filter(function(a){return a.innerText.trim()!=='Daha ətraflı'});if(l.length<5) throw new Error('Müraciət düyməsi az: '+l.length);l.forEach(function(a){if(!re.test(a.href)) throw new Error('Yanlış ünvan: '+a.href)})"
 * Brauzeri bağla

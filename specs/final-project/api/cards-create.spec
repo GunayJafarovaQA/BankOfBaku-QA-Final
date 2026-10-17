@@ -11,6 +11,7 @@ tags: grad-201, regression, positive, tc-crd-001
 
 * Kart buraxılışı hesab "acc_002" məbləğ "100" ləqəb "Kommunal"
 * Status kodunun "201" olmalıdır
+* Cavab "card.schema.json" JSON schema-sına uyğun olmalıdır
 * Header "Location" deyerini "location" olaraq yadda saxla
 * Json cavabında "id" deyerini "cardId" olaraq yadda saxla
 * Json cavabında "id" deyeri "vcd_.{8}" regex-ine uyğun olmalıdır

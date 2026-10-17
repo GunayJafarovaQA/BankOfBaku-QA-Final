@@ -1,0 +1,5 @@
+# Angular səhifəsini aç <url> hazır element <element>
+* "chrome" brauzeri aç ve keçid et <url>
+* <element> görsensin deye maksimum "20" saniye gözle
+* Sehifenin tam yüklenmesini gözle
+* "3" saniye gözle

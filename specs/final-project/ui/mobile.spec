@@ -5,7 +5,7 @@ Pəncərə 500x900 ölçüsündədir (Chrome-un minimum eni səbəbindən 375px 
 ## UI-RSP-009 Hamburger menyu açılır və bölmələri göstərir
 tags: ui, mobile, smoke
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
+* "chrome" brauzeri aç ve keçid et "/az"
 * Pencere ölçüsünü "500" x "900" et
 * "Mobil Menyu Düyməsi" görsensin deye maksimum "15" saniye gözle
 * "Mobil Menyu Düyməsi" elementine JavaScript ile klik et
@@ -17,7 +17,7 @@ tags: ui, mobile, smoke
 ## UI-RSP-010 Hamburger menyu ikinci kliklə bağlanır
 tags: ui, mobile
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
+* "chrome" brauzeri aç ve keçid et "/az"
 * Pencere ölçüsünü "500" x "900" et
 * "Mobil Menyu Düyməsi" görsensin deye maksimum "15" saniye gözle
 * "Mobil Menyu Düyməsi" elementine JavaScript ile klik et
@@ -30,7 +30,7 @@ tags: ui, mobile
 ## UI-RSP-011 Ana səhifədə üfüqi sürüşmə yoxdur
 tags: ui, mobile
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
+* "chrome" brauzeri aç ve keçid et "/az"
 * Pencere ölçüsünü "500" x "900" et
 * "Kalkulyator Başlıq" görsensin deye maksimum "15" saniye gözle
 * JavaScript icra et "var d=document.documentElement;if(d.scrollWidth>d.clientWidth+1) throw new Error('Üfüqi sürüşmə var: '+d.scrollWidth+' > '+d.clientWidth)"
@@ -39,7 +39,7 @@ tags: ui, mobile
 ## UI-RSP-012 Kredit kalkulyatoru mobil enində işləyir
 tags: ui, mobile
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
+* "chrome" brauzeri aç ve keçid et "/az"
 * Pencere ölçüsünü "500" x "900" et
 * "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
 * "3" saniye gözle

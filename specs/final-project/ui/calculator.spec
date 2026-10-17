@@ -5,7 +5,7 @@ Test mühiti: https://www.bankofbaku.com/az — formalar göndərilmir, yalnız 
 ## UI-CAL-001 İlkin vəziyyət: minimum dəyərlər və hesablama
 tags: ui, calculator, smoke
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
+* "chrome" brauzeri aç ve keçid et "/az"
 * "Kalkulyator Başlıq" görsensin deye maksimum "15" saniye gözle
 * "Məbləğ Göstərici" elementin içinde "500" yazısı var
 * "Müddət Göstərici" elementin içinde "3" yazısı var
@@ -16,14 +16,11 @@ tags: ui, calculator, smoke
 ## UI-CAL-002 Düzgün məbləğ və müddət ilə hesablama
 tags: ui, calculator, smoke
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
-* "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az" hazır element "Məbləğ Input"
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "8000" yaz ve Tab düymesine bas
 * "Müddət Input" elementini temizle
 * "Müddət Input" elementine "12" yaz ve Tab düymesine bas
-* "1" saniye gözle
 * "Məbləğ Input" input deyeri "8000" olmalıdır
 * "Müddət Input" input deyeri "12" olmalıdır
 * "Aylıq Ödəniş" elementinin metni "706.68" olmalıdır
@@ -33,69 +30,54 @@ tags: ui, calculator, smoke
 ## UI-CAL-003 Minimum sərhəd: 500 AZN / 3 ay qəbul olunur
 tags: ui, calculator
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
-* "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az" hazır element "Məbləğ Input"
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "500" yaz ve Tab düymesine bas
 * "Müddət Input" elementini temizle
 * "Müddət Input" elementine "3" yaz ve Tab düymesine bas
-* "1" saniye gözle
 * "Aylıq Ödəniş" elementinin metni "169.70" olmalıdır
 * Brauzeri bağla
 
 ## UI-CAL-004 Minimumdan aşağı məbləğ (499) rədd edilməlidir (BUG-003)
 tags: ui, calculator, known-bug
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
-* "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az" hazır element "Məbləğ Input"
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "499" yaz ve Tab düymesine bas
-* "1" saniye gözle
 * "Kalkulyator Xəta Mesajı" görünür olmalıdır
 * Brauzeri bağla
 
 ## UI-CAL-005 Sıfır məbləğ rədd edilməlidir (BUG-003)
 tags: ui, calculator, known-bug
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
-* "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az" hazır element "Məbləğ Input"
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "0" yaz ve Tab düymesine bas
-* "1" saniye gözle
 * "Kalkulyator Xəta Mesajı" görünür olmalıdır
 * Brauzeri bağla
 
 ## UI-CAL-006 Maksimumdan yuxarı məbləğ (80001) rədd edilməlidir (BUG-001)
 tags: ui, calculator, known-bug
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
-* "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az" hazır element "Məbləğ Input"
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "80001" yaz ve Tab düymesine bas
-* "1" saniye gözle
 * "Kalkulyator Xəta Mesajı" görünür olmalıdır
 * Brauzeri bağla
 
 ## UI-CAL-007 Maksimumdan yuxarı müddət (60) rədd edilməlidir (BUG-002)
 tags: ui, calculator, known-bug
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
-* "Müddət Input" görsensin deye maksimum "15" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az" hazır element "Müddət Input"
 * "Müddət Input" elementini temizle
 * "Müddət Input" elementine "60" yaz ve Tab düymesine bas
-* "1" saniye gözle
 * "Kalkulyator Xəta Mesajı" görünür olmalıdır
 * Brauzeri bağla
 
 ## UI-CAL-008 Kredit növü dəyişəndə seçim yenilənir
 tags: ui, calculator
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
+* "chrome" brauzeri aç ve keçid et "/az"
 * "Kredit Növü Seçimi" görsensin deye maksimum "15" saniye gözle
 * "5" saniye gözle
 * JavaScript icra et "document.querySelector('.calculator__container .select_box').scrollIntoView({block:'center'})"
@@ -108,7 +90,7 @@ tags: ui, calculator
 ## UI-CAL-009 Kalkulyatorun defolt kredit növü neytral olmalıdır (BUG-007)
 tags: ui, calculator, known-bug
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
+* "chrome" brauzeri aç ve keçid et "/az"
 * "Kredit Növü Seçilmiş" görsensin deye maksimum "15" saniye gözle
 * JavaScript icra et "if(/Səhiyyə/.test(document.querySelector('.calculator__container .select_box .selected').innerText)) throw new Error('BUG-007: defolt növ özəl kredit növüdür')"
 * Brauzeri bağla
@@ -116,9 +98,7 @@ tags: ui, calculator, known-bug
 ## UI-CAL-010 Cəmi ödəniş = aylıq ödəniş × müddət (BUG-005)
 tags: ui, calculator, known-bug
 
-* "chrome" brauzeri aç ve keçid et "https://www.bankofbaku.com/az"
-* "Məbləğ Input" görsensin deye maksimum "15" saniye gözle
-* "3" saniye gözle
+* Angular səhifəsini aç "/az" hazır element "Məbləğ Input"
 * "Məbləğ Input" elementini temizle
 * "Məbləğ Input" elementine "1000" yaz ve Tab düymesine bas
 * "Müddət Input" elementini temizle

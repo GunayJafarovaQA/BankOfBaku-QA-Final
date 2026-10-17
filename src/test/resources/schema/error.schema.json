@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Xəta cavabı (400/409/422)",
+  "type": "object",
+  "required": ["code"],
+  "properties": {
+    "code": { "type": "string", "pattern": "^[A-Z_]+$" },
+    "error": { "type": "string" },
+    "message": { "type": "string" },
+    "details": {
+      "type": "array",
+      "items": { "type": "object", "required": ["field"], "properties": { "field": { "type": "string" } } }
+    }
+  }
+}

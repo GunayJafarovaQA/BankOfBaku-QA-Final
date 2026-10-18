@@ -2,7 +2,7 @@
 
 Formalar göndərilmir. Yalnız hesablama və validasiya yoxlanır.
 
-## UI-FX-004 AZN → USD (Nağd) hesablaması düzgündür
+## UI-FX-010 AZN → USD (Nağd) hesablaması düzgündür
 tags: ui, converter, smoke
 
 * "chrome" brauzeri aç ve keçid et "/az"
@@ -14,7 +14,7 @@ tags: ui, converter, smoke
 * "Konvertor Nəticə" input deyeri "58.82" olmalıdır
 * Brauzeri bağla
 
-## UI-FX-005 Konvertor mənfi məbləği rədd etməlidir (BUG-014)
+## UI-FX-008 Konvertor mənfi məbləği rədd etməlidir (BUG-014)
 tags: ui, converter, known-bug
 
 * "chrome" brauzeri aç ve keçid et "/az"

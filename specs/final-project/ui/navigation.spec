@@ -51,7 +51,7 @@ tags: ui, navigation
 * URL "/az/pul-kocurmeleri" içermelidir
 * Brauzeri bağla
 
-## UI-NAV-006 Digər xidmətlər bölməsinə keçid
+## UI-NAV-007 Digər xidmətlər bölməsinə keçid
 tags: ui, navigation
 
 * "chrome" brauzeri aç ve keçid et "/az"
@@ -60,7 +60,7 @@ tags: ui, navigation
 * URL "/az/diger-xidmetler" içermelidir
 * Brauzeri bağla
 
-## UI-NAV-007 Logo ilə ana səhifəyə qayıtmaq
+## UI-NAV-010 Logo ilə ana səhifəyə qayıtmaq
 tags: ui, navigation
 
 * "chrome" brauzeri aç ve keçid et "/az/kartlar/debet"
@@ -71,7 +71,7 @@ tags: ui, navigation
 * URL "/az" içermelidir
 * Brauzeri bağla
 
-## UI-NAV-008 Daxili səhifədə F5 yeniləmə (SPA deep link)
+## UI-NAV-012 Daxili səhifədə F5 yeniləmə (SPA deep link)
 tags: ui, navigation
 
 * "chrome" brauzeri aç ve keçid et "/az/kreditler/nagd-pul-krediti"
@@ -81,7 +81,7 @@ tags: ui, navigation
 * URL "/az/kreditler/nagd-pul-krediti" içermelidir
 * Brauzeri bağla
 
-## UI-NAV-010 Olmayan ünvan 404 səhifəsi göstərməlidir, bağlantı vaxtı bitməməlidir (BUG-011)
+## UI-ERR-001 Olmayan ünvan 404 səhifəsi göstərməlidir, bağlantı vaxtı bitməməlidir (BUG-011)
 tags: ui, navigation, known-bug
 
 * "chrome" brauzeri aç ve keçid et "/az/yoxdur-test-sehife"
@@ -90,7 +90,7 @@ tags: ui, navigation, known-bug
 * Brauzeri bağla
 
 
-## UI-NAV-011 Ana səhifədəki daxili linklər dil prefiksi (/az) daşımalıdır (BUG-013)
+## UI-NAV-016 Ana səhifədəki daxili linklər dil prefiksi (/az) daşımalıdır (BUG-013)
 tags: ui, navigation, known-bug
 
 * Angular səhifəsini aç "/az" hazır element "Logo"

@@ -56,7 +56,7 @@ tags: ui, calculator, known-bug
 * "Kalkulyator Xəta Mesajı" görünür olmalıdır
 * Brauzeri bağla
 
-## UI-CAL-006 Maksimumdan yuxarı məbləğ (80001) rədd edilməlidir (BUG-001)
+## UI-CAL-008 Maksimumdan yuxarı məbləğ (80001) rədd edilməlidir (BUG-001)
 tags: ui, calculator, known-bug
 
 * Angular səhifəsini aç "/az" hazır element "Məbləğ Input"
@@ -65,7 +65,7 @@ tags: ui, calculator, known-bug
 * "Kalkulyator Xəta Mesajı" görünür olmalıdır
 * Brauzeri bağla
 
-## UI-CAL-007 Maksimumdan yuxarı müddət (60) rədd edilməlidir (BUG-002)
+## UI-CAL-010 Maksimumdan yuxarı müddət (60) rədd edilməlidir (BUG-002)
 tags: ui, calculator, known-bug
 
 * Angular səhifəsini aç "/az" hazır element "Müddət Input"
@@ -74,7 +74,7 @@ tags: ui, calculator, known-bug
 * "Kalkulyator Xəta Mesajı" görünür olmalıdır
 * Brauzeri bağla
 
-## UI-CAL-008 Kredit növü dəyişəndə seçim yenilənir
+## UI-CAL-017 Kredit növü dəyişəndə seçim yenilənir
 tags: ui, calculator
 
 * "chrome" brauzeri aç ve keçid et "/az"
@@ -87,7 +87,7 @@ tags: ui, calculator
 * "Kredit Növü Seçilmiş" elementin içinde "Lombard krediti" yazısı var
 * Brauzeri bağla
 
-## UI-CAL-009 Kalkulyatorun defolt kredit növü neytral olmalıdır (BUG-007)
+## UI-CAL-001b Kalkulyatorun defolt kredit növü neytral olmalıdır (BUG-007)
 tags: ui, calculator, known-bug
 
 * "chrome" brauzeri aç ve keçid et "/az"
@@ -95,7 +95,7 @@ tags: ui, calculator, known-bug
 * JavaScript icra et "if(/Səhiyyə/.test(document.querySelector('.calculator__container .select_box .selected').innerText)) throw new Error('BUG-007: defolt növ özəl kredit növüdür')"
 * Brauzeri bağla
 
-## UI-CAL-010 Cəmi ödəniş = aylıq ödəniş × müddət (BUG-005)
+## UI-CAL-016 Cəmi ödəniş = aylıq ödəniş × müddət (BUG-005)
 tags: ui, calculator, known-bug
 
 * Angular səhifəsini aç "/az" hazır element "Məbləğ Input"

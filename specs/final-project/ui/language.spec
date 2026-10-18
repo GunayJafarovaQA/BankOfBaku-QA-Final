@@ -12,7 +12,7 @@ tags: ui, language, smoke
 * URL "/az" içermelidir
 * Brauzeri bağla
 
-## UI-LNG-005 Dil menyusundan EN seçimi
+## UI-LNG-014 Dil menyusundan EN seçimi
 tags: ui, language
 
 * "chrome" brauzeri aç ve keçid et "/az"
@@ -23,7 +23,7 @@ tags: ui, language
 * URL "/en" içermelidir
 * Brauzeri bağla
 
-## UI-LNG-005b Dil menyusundan RU seçimi
+## UI-LNG-015 Dil menyusundan RU seçimi
 tags: ui, language
 
 * "chrome" brauzeri aç ve keçid et "/az"
@@ -49,7 +49,7 @@ tags: ui, language, known-bug
 * JavaScript icra et "if(/Sizə yaxın/.test(document.title)) throw new Error('BUG-009: /en səhifəsində başlıq Azərbaycan dilindədir: '+document.title)"
 * Brauzeri bağla
 
-## UI-LNG-008 Dil keçidindən sonra başlıq tərcümə açarı olmamalıdır (BUG-010)
+## UI-LNG-016 Dil keçidindən sonra başlıq tərcümə açarı olmamalıdır (BUG-010)
 tags: ui, language, known-bug
 
 * "chrome" brauzeri aç ve keçid et "/az"

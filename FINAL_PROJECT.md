@@ -33,13 +33,13 @@ JSON schema yoxlamaları: `src/test/resources/schema/` (beneficiary, beneficiary
 
 ## Sənədlər (`docs/`)
 - `Final_Project_API_Test_Cases_v2.xlsx` – API test case-lər, avtomatlaşdırma planı, izlənmə matrisi
-- `Final_Project_UI_Test_Cases.xlsx` – 274 UI test case (prioritet, tip, status, avtomatlaşdırma)
-- `Final_Project_UI_Bug_Siyahisi.xlsx` – təsdiqlənmiş bug siyahısı (26 bug), screenshot-lar
+- `Final_Project_UI_Test_Cases.xlsx` – 278 UI test case (prioritet, tip, status, avtomatlaşdırma)
+- `Final_Project_UI_Bug_Siyahisi.xlsx` – təsdiqlənmiş bug siyahısı (27 bug), screenshot-lar
 - `Final_Project_UI_Ehate_Statusu.xlsx` – modul üzrə əhatə statusu
 
 ## UI nəticələri
 - 24 modul, 20-si avtomatlaşdırılıb (83%)
-- 274 test case: 202 Keçdi, 52 Uğursuz, 5 Bloklanıb, 15 İcra olunmayıb
+- 278 test case: 205 Keçdi, 54 Uğursuz, 5 Bloklanıb, 14 İcra olunmayıb
 - 97 Selenium ssenarisi: 75 sabit, 22 məlum bug (`known-bug` teqi ilə)
 
 ## Əhatədən kənar (məqsədli)
